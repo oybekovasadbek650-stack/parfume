@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Forever Life — Premium atirlar do'koni. Kilian, Dior, Chanel, Lacoste, D&G analoglari. Toshkentga tez yetkazib berish.">
+<title>Forever Life — Premium Atirlar Do'koni</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">Forever <span>Life</span></a>
+  <ul class="nav-links">
+    <li><a href="#shop">Do'kon</a></li>
+    <li><a href="#about">Haqimizda</a></li>
+    <li><a href="#reviews">Sharhlar</a></li>
+    <li><a href="#contact">Aloqa</a></li>
+  </ul>
+  <button class="nav-cta" onclick="filterProducts('barchasi', this)">Buyurtma</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-lines"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">✨ Forever Life Perfume</div>
+    <h1>Premium Atirlash<br><em>San'ati</em></h1>
+    <p class="hero-desc">
+      Toshkentdagi eng yangi premium atir markasi. Xorijiy brendlarning eng taniqli qo'shniqlari, 23–25% fragrance konsentratsiyasida. Bugun buyurtma — bugun qo'lingizda.
+    </p>
+    <div class="hero-btns">
+      <a href="#shop" class="btn-primary">Do'konga O'tish</a>
+      <a href="https://t.me/+998915130808" target="_blank" class="btn-outline">Telegram'da Chat</a>
+    </div>
+  </div>
+
+  <div class="hero-stats">
+    <div class="stat-item">
+      <div class="stat-num">2500+</div>
+      <div class="stat-label">Mutaxassislar</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">4.9★</div>
+      <div class="stat-label">Reyting</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">99%</div>
+      <div class="stat-label">Qaniqasi</div>
+    </div>
+  </div>
+
+  <div class="scroll-hint">Pastga Suring</div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="categories">
+  <div class="categories-content">
+    <h2 class="categories-title">Atirlash Turi</h2>
+    <div class="categories-list">
+      <div class="cat-card" style="background: linear-gradient(135deg, rgba(201,169,110,0.15) 0%, rgba(201,169,110,0.05) 100%);">
+        <div class="cat-icon">👨</div>
+        <h3>Erkaklar</h3>
+        <p>Kuchli va o'ziga ishonchli atirlash</p>
+      </div>
+      <div class="cat-card" style="background: linear-gradient(135deg, rgba(201,169,110,0.15) 0%, rgba(201,169,110,0.05) 100%);">
+        <div class="cat-icon">👩</div>
+        <h3>Ayollar</h3>
+        <p>Nozik va diqqatga loyiq aromalar</p>
+      </div>
+      <div class="cat-card" style="background: linear-gradient(135deg, rgba(201,169,110,0.15) 0%, rgba(201,169,110,0.05) 100%);">
+        <div class="cat-icon">🌸</div>
+        <h3>Unisex</h3>
+        <p>Barcha uchun muasir va o'ziga xos</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOP -->
+<section id="shop" class="shop">
+  <div class="section-label">Mahsulotlar</div>
+  <h2 class="section-title">Bizning <em>To'plam</em></h2>
+
+  <div class="filter-buttons">
+    <button class="filter-btn active" onclick="filterProducts('barchasi', this)">Barchasi</button>
+    <button class="filter-btn" onclick="filterProducts('erkaklar', this)">Erkaklar</button>
+    <button class="filter-btn" onclick="filterProducts('ayollar', this)">Ayollar</button>
+    <button class="filter-btn" onclick="filterProducts('unisex', this)">Unisex</button>
+  </div>
+
+  <div class="products-grid">
+
+    <!-- 1. Sauvage (erkaklar) -->
+    <div class="product-card" data-cat="erkaklar">
+      <div class="product-img-placeholder">
+        <svg viewBox="0 0 60 80" fill="none" stroke="#c9a96e" stroke-width="1.5">
+          <rect x="16" y="22" width="28" height="44" rx="3"/>
+          <rect x="22" y="13" width="16" height="11" rx="2"/>
+          <path d="M16 38 Q30 30 44 38"/>
+          <circle cx="30" cy="52" r="5"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <div class="product-badge">Erkaklar</div>
+        <div class="product-name">Sauvage — Erkaklar</div>
+        <div class="product-inspired">Dior Sauvage · 100ml · Fragrance 24%</div>
+        <div class="product-footer">
+          <div class="product-price">550 000 <small>so'm</small></div>
+          <a href="https://t.me/+998915130808" target="_blank" class="btn-order">Buyurtma</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Aventus (erkaklar) -->
+    <div class="product-card" data-cat="erkaklar">
+      <div class="product-img-placeholder">
+        <svg viewBox="0 0 60 80" fill="none" stroke="#c9a96e" stroke-width="1.5">
+          <rect x="16" y="22" width="28" height="44" rx="3"/>
+          <rect x="22" y="13" width="16" height="11" rx="2"/>
+          <path d="M16 38 Q30 30 44 38"/>
+          <circle cx="30" cy="52" r="5"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <div class="product-badge">Erkaklar</div>
+        <div class="product-name">Aventus — Erkaklar</div>
+        <div class="product-inspired">Creed Aventus · 100ml · Fragrance 25%</div>
+        <div class="product-footer">
+          <div class="product-price">650 000 <small>so'm</small></div>
+          <a href="https://t.me/+998915130808" target="_blank" class="btn-order">Buyurtma</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Allure Sport (erkaklar) -->
+    <div class="product-card" data-cat="erkaklar">
+      <div class="product-img-placeholder">
+        <svg viewBox="0 0 60 80" fill="none" stroke="#c9a96e" stroke-width="1.5">
+          <rect x="16" y="22" width="28" height="44" rx="3"/>
+          <rect x="22" y="13" width="16" height="11" rx="2"/>
+          <path d="M16 38 Q30 30 44 38"/>
+          <circle cx="30" cy="52" r="5"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <div class="product-badge">Erkaklar</div>
+        <div class="product-name">Allure Sport — Erkaklar</div>
+        <div class="product-inspired">Chanel Allure · 100ml · Fragrance 23%</div>
+        <div class="product-footer">
+          <div class="product-price">600 000 <small>so'm</small></div>
+          <a href="https://t.me/+998915130808" target="_blank" class="btn-order">Buyurtma</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. Paco Rabanne Million (erkaklar) -->
+    <div class="product-card" data-cat="erkaklar">
+      <div class="product-img-placeholder">
+        <svg viewBox="0 0 60 80" fill="none" stroke="#c9a96e" stroke-width="1.5">
+          <rect x="16" y="22" width="28" height="44" rx="3"/>
+          <rect x="22" y="13" width="16" height="11" rx="2"/>
+          <path d="M16 38 Q30 30 44 38"/>
+          <circle cx="30" cy="52" r="5"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <div class="product-badge">Erkaklar</div>
+        <div class="product-name">Paco Rabanne Million</div>
+        <div class="product-inspired">Paco Rabanne · 100ml · Fragrance 23%</div>
+        <div class="product-footer">
+          <div class="product-price">520 000 <small>so'm</small></div>
+          <a href="https://t.me/+998915130808" target="_blank" class="btn-order">Buyurtma</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. Sephora Allure (ayollar) -->
+    <div class="product-card" data-cat="ayollar">
+      <div class="product-img-placeholder">
+        <svg viewBox="0 0 60 80" fill="none" stroke="#c9a96e" stroke-width="1.5">
+          <rect x="16" y="22" width="28" height="44" rx="3"/>
+          <rect x="22" y="13" width="16" height="11" rx="2"/>
+          <path d="M16 38 Q30 30 44 38"/>
+          <circle cx="30" cy="52" r="5"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <div class="product-badge">Ayollar</div>
+        <div class="product-name">Sephora Allure — Ayollar</div>
+        <div class="product-inspired">Chanel Allure Femme · 100ml · Fragrance 25%</div>
+        <div class="product-footer">
+          <div class="product-price">600 000 <small>so'm</small></div>
+          <a href="https://t.me/+998915130808" target="_blank" class="btn-order">Buyurtma</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6. Forever Fleur (ayollar) -->
+    <div class="product-card" data-cat="ayollar">
+      <div class="product-img-placeholder">
+        <svg viewBox="0 0 60 80" fill="none" stroke="#c9a96e" stroke-width="1.5">
+          <rect x="16" y="22" width="28" height="44" rx="3"/>
+          <rect x="22" y="13" width="16" height="11" rx="2"/>
+          <path d="M16 38 Q30 30 44 38"/>
+          <circle cx="30" cy="52" r="5"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <div class="product-badge">Ayollar</div>
+        <div class="product-name">Forever Fleur — Ayollar</div>
+        <div class="product-inspired">D&G Light Blue · 100ml · Fragrance 24%</div>
+        <div class="product-footer">
+          <div class="product-price">580 000 <small>so'm</small></div>
+          <a href="https://t.me/+998915130808" target="_blank" class="btn-order">Buyurtma</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7. Forever Noir (unisex) -->
+    <div class="product-card" data-cat="unisex">
+      <div class="product-img-placeholder">
+        <svg viewBox="0 0 60 80" fill="none" stroke="#c9a96e" stroke-width="1.5">
+          <rect x="16" y="22" width="28" height="44" rx="3"/>
+          <rect x="22" y="13" width="16" height="11" rx="2"/>
+          <path d="M16 38 Q30 30 44 38"/>
+          <circle cx="30" cy="52" r="5"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <div class="product-badge">Unisex</div>
+        <div class="product-name">Forever Noir — Unisex</div>
+        <div class="product-inspired">Tom Ford Black Orchid · 100ml · Fragrance 25%</div>
+        <div class="product-footer">
+          <div class="product-price">630 000 <small>so'm</small></div>
+          <a href="https://t.me/+998915130808" target="_blank" class="btn-order">Buyurtma</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 8. Forever GAB (ayollar) -->
+    <div class="product-card" data-cat="ayollar">
+      <div class="product-img-placeholder">
+        <svg viewBox="0 0 60 80" fill="none" stroke="#c9a96e" stroke-width="1.5">
+          <rect x="16" y="22" width="28" height="44" rx="3"/>
+          <rect x="22" y="13" width="16" height="11" rx="2"/>
+          <path d="M16 38 Q30 30 44 38"/>
+          <circle cx="30" cy="52" r="5"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <div class="product-badge">Ayollar</div>
+        <div class="product-name">Forever GAB — Ayollar</div>
+        <div class="product-inspired">GAB Perfume · 50ml · Fragrance 23%</div>
+        <div class="product-footer">
+          <div class="product-price">650 000 <small>so'm</small></div>
+          <a href="https://t.me/+998915130808" target="_blank" class="btn-order">Buyurtma</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-img-wrap">
+    <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=600&q=80" alt="Forever Life Perfume" class="about-img">
+    <div class="about-img-frame"></div>
+  </div>
+  <div>
+    <div class="section-label">Biz haqimizda</div>
+    <h2 class="section-title">Hashamat va<br><em>Sifatning</em> Manzili</h2>
+    <div class="gold-line"></div>
+    <p style="color: var(--text-muted); font-weight: 300; line-height: 1.8; font-size: 0.95rem;">
+      Forever Life — Toshkentdagi premium atir markasi. Biz dunyoning eng taniqli brendlari ilhomida,
+      23–25% fragrance konsentratsiyasida atirlar taqdim etamiz. Har bir atir ehtiyot bilan tanlangan
+      va original qadoqda yetkazib beriladi.
+    </p>
+
+    <div class="about-features">
+      <div class="feature-item">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="feature-title">Premium Sifat</div>
+        <div class="feature-desc">Fragrance 23–25%. Brend atirlarda bu 40% va undan yuqori.</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24"><path d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="feature-title">Bugun Yetkazib Berish</div>
+        <div class="feature-desc">Toshkent bo'yicha bugun buyurtma — bugun qo'lingizda.</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="feature-title">Sovg'a Qadoqlash</div>
+        <div class="feature-desc">Chiroyli quti va lenta bilan, sovg'a sifatida mukammal.</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24"><path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="feature-title">Bepul Maslahat</div>
+        <div class="feature-desc">Sizga mos atirni tanlashda yordam beramiz — bepul.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div class="section-label">Mijozlar</div>
+  <h2 class="section-title">Ular Nimalar <em>Dedi?</em></h2>
+
+  <div class="reviews-grid">
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+      <div class="review-text">"Sauvage analogini oldim. Hid juda yaqin va uzoq turadi. Narxi esa juda qulay. Albatta yana buyurtma beraman!"</div>
+      <div class="review-author">
+        <div class="review-avatar">SR</div>
+        <div>
+          <div class="review-name">Sarvar R.</div>
+          <div class="review-loc">Toshkent, Chilonzor</div>
+        </div>
+      </div>
+    </div>
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+      <div class="review-text">"Telegram orqali buyurtma berdim, 2 soat ichida yetkazib berishdi. Qadoqlash juda chiroyli. Sovg'a sifatida mukammal!"</div>
+      <div class="review-author">
+        <div class="review-avatar">NM</div>
+        <div>
+          <div class="review-name">Nilufar M.</div>
+          <div class="review-loc">Toshkent, Yunusobod</div>
+        </div>
+      </div>
+    </div>
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+      <div class="review-text">"Allure Sport analogini oldim. Do'stlarim hid qayerdan deganda, asl Chanel deb o'yladilar. Sifat zo'r, narx ajoyib!"</div>
+      <div class="review-author">
+        <div class="review-avatar">JK</div>
+        <div>
+          <div class="review-name">Jasur K.</div>
+          <div class="review-loc">Toshkent, Mirzo Ulug'bek</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-label">Aloqa</div>
+  <h2 class="section-title">Biz bilan<br><em>Bog'laning</em></h2>
+  <p class="contact-sub">
+    Buyurtma berish, narx so'rash yoki maslahat olish uchun — Telegram yoki Instagram orqali murojaat qiling.
+    Har kuni 09:00 – 22:00 da javob beramiz.
+  </p>
+
+  <div class="contact-links">
+    <a href="https://t.me/+998915130808" target="_blank" class="contact-link">
+      <svg class="contact-link-icon" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.833.941z"/></svg>
+      Telegram: +998 91 513 08 08
+    </a>
+    <a href="tel:+998915130808" class="contact-link">
+      <svg class="contact-link-icon" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+      +998 91 513 08 08
+    </a>
+    <a href="https://www.instagram.com/foreverlife.perfume" target="_blank" class="contact-link">
+      <svg class="contact-link-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+      @foreverlife.perfume
+    </a>
+    <a href="https://www.youtube.com/@asadjan710-i" target="_blank" class="contact-link">
+      <svg class="contact-link-icon" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      YouTube
+    </a>
+  </div>
+
+  <a href="https://t.me/+998915130808" target="_blank" class="btn-primary" style="font-size: 0.85rem; padding: 1rem 3rem;">
+    ✈ Telegram orqali buyurtma berish
+  </a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">FOREVER LIFE</div>
+  <div class="footer-copy">© 2026 Forever Life Perfume. Barcha huquqlar himoyalangan. · Toshkent, O'zbekiston</div>
+  <div class="footer-links">
+    <a href="#shop">Do'kon</a>
+    <a href="#about">Haqimizda</a>
+    <a href="#contact">Aloqa</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
